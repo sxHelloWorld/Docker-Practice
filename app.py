@@ -3,11 +3,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Hello!"
+    return "Hello github!"
 
 @app.route("/test")
 def test():
-    return "test hello!"
+    return "Hello github!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
