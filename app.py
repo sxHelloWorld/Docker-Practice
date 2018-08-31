@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Hello github!"
+    return "Hello changed!"
 
 @app.route("/test")
 def test():
