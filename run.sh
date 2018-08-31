@@ -1,7 +1,7 @@
 #!/bin/bash
 
-imageName=writingstyle
-containerName=writingstyle-container
+imageName=ws-743686
+containerName=ws-container
 
 docker build -t $imageName -f Dockerfile  .
 
